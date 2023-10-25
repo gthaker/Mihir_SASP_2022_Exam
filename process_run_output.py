@@ -5,7 +5,8 @@ lines = sys.stdin.readlines()
 
 for l in lines:
     #print(l, end='')
-    m = re.match(r'^key=(\[.+\])\s+response=[\'"](\w)', l)
+    # This one is for openAI API responses
+    m = re.match(r'^key=([\'\"]?\w[\'\"]?)\s+response=[\'"]?(\w)', l)
     if m:
         key = m.group(1)
         key = key.replace(' ', '')
@@ -17,6 +18,7 @@ for l in lines:
         response = m.group(2)
         #print(key, response)
 
+    # For PaLM
     m = re.match(r'^key=(.+)\s+palm_answer=(\'\w\'|None)', l)
     if m:
         key = m.group(1)
@@ -30,6 +32,7 @@ for l in lines:
         response = response.replace("'", '')
         #print(key, response)
 
+    # For LLAMA-2
     m = re.match(r'^key=(.+)\s+llama_answer=(\'\w\'|None)', l)
     if m:
         key = m.group(1)
