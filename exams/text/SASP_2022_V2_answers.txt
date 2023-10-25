@@ -93,7 +93,7 @@ attributed to benign prostatic hyperplasia: AUA Guideline Part II—Surgical
 evaluation and treatment. J UROL 2021;206:818.https://www.auanet.org/guidelines/
 guidelines/benign-prostatic-hyperplasia-(bph)-guideline 
 
-Question#5 ANSWER=D 
+Question #5 ANSWER=D 
 
 When faced with a patient with a persistent urinary fistula, the acronym FETID will 
 aid the physician in determining its etiology and management plans: F-Foreign 
@@ -2307,7 +2307,7 @@ Peters CA, Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL WALSH WEIN
 
 UROLOGY, ed 12. Philadelphia, Elsevier, 2020, vol 1, chap 40, p 796. 
 
-Question#73 ANSWER=A 
+Question #73 ANSWER=A 
 
 This boy has high-grade VUR into the lower pole of a duplicated system. The reduced 
 
@@ -3182,7 +3182,7 @@ Partin AW, Peters CA, Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL
 
 WALSH WEIN UROLOGY, ed 12. Philadelphia, Elsevier, 2020, vol 3, chap 161, p 3674. 
 
-Question#97 ANSWER=A 
+Question #97 ANSWER=A 
 
 Adrenal crisis, or acute adrenal insufficiency, is life threatening. Signs and symptoms 
 
