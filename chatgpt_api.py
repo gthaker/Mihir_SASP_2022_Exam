@@ -1,9 +1,6 @@
 import openai
 import os, time, re
 
-#openai.api_key  = "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"
-openai.api_key  = "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"
-
 print_model = True
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
