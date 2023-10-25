@@ -20,8 +20,7 @@ def do_openai_call(ques):
     qpart = '\n'.join(ques.q)
     prompt = f"""
 
-Only return the answer A, B, C, or D in response to the
-prompt below
+Only return the answer A, B, C, D or E in response to the prompt below
 
 {qpart}
 
