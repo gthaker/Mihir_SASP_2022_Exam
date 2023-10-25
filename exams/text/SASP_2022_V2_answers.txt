@@ -93,7 +93,7 @@ attributed to benign prostatic hyperplasia: AUA Guideline Part II—Surgical
 evaluation and treatment. J UROL 2021;206:818.https://www.auanet.org/guidelines/
 guidelines/benign-prostatic-hyperplasia-(bph)-guideline 
 
-Quesion#5 ANSWER=D 
+Question#5 ANSWER=D 
 
 When faced with a patient with a persistent urinary fistula, the acronym FETID will 
 aid the physician in determining its etiology and management plans: F-Foreign 
@@ -930,7 +930,7 @@ AUAUNIVERSITY CORE CURRICULUM: Urethral stricture disease. Updated January 19,
 2021. https://university.auanet.org/core/reconstructive-uroIogy/urethral-stricturedisease-
 and-reconstruction/index.cfm 
 
-QuesNon #33 ANSWER=A 
+Question #33 ANSWER=A 
 
 Reservoirs made of detubularized ileum appear to have the greatest compliance and 
 
@@ -1142,7 +1142,7 @@ Anderson CB, McKiernan JM: Tumors of the urethra, in Partin AW, Peters CA,
 Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL WALSH WEIN UROLOGY, ed 
 
 12. Philadelphia, Elsevier, 2020, vol 2, chap 80, pp 1778-1779. 
-QuesNon #39 ANSWER=C 
+Question #39 ANSWER=C 
 
 5-alpha-reductase inhibitors result in decreased dihydrotestosterone (DHT) and 
 
@@ -1244,7 +1244,7 @@ LR, Dmochowski RR, Wein AJ (eds): CAMPBELL WALSH WEIN UROLOGY, ed 12.
 
 Philadelphia, Elsevier, 2020, vol 3, chap 161, p 3676. 
 
-QuesNon #42 ANSWER=E 
+Question #42 ANSWER=E 
 
 The patient has suffered a UPJ disruption following a rapid deceleration injury. 
 
@@ -1852,7 +1852,7 @@ Matlaga BR, Krambeck AE: Surgical management for upper urinary tract calculi, in
 Partin AW, Peters CA, Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL 
 WALSH WEIN UROLOGY, ed 12. Philadelphia, Elsevier, 2020, vol 2, chap 94, p 2106. 
 
-QuesGon #58 ANSWER=B 
+Question #58 ANSWER=B 
 
 This patient has a circumferential urethral prolapse with normal-appearing mucosa. 
 The most common symptom of urethral prolapse is vaginal bleeding/spotting with 
@@ -2168,7 +2168,7 @@ testicular cancer: AUA Guideline. J UROL 2019;202:272.
 
 https://www.auanet.org/guidelines/guidelines/testicular-cancer-guideline 
 
-QuesGon#69 ANSWER=C 
+Question #69 ANSWER=C 
 
 The axis of the ectopic kidney is slightly medial or vertical, but it may be tilted as 
 
@@ -2307,7 +2307,7 @@ Peters CA, Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL WALSH WEIN
 
 UROLOGY, ed 12. Philadelphia, Elsevier, 2020, vol 1, chap 40, p 796. 
 
-QuesGon#73 ANSWER=A 
+Question#73 ANSWER=A 
 
 This boy has high-grade VUR into the lower pole of a duplicated system. The reduced 
 
@@ -2381,7 +2381,7 @@ March 1, 2021. https://university.auanet.org/core/anatomy-physiology/testis
 
 epididymis-vas-deferens/index.cfm 
 
-QuesNon #75 ANSWER=B 
+Question #75 ANSWER=B 
 
 Hormone therapy should not be altered until after the orchiectomy and should be 
 performed by a provider trained in transgender endocrine management. Sperm 
@@ -3182,7 +3182,7 @@ Partin AW, Peters CA, Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL
 
 WALSH WEIN UROLOGY, ed 12. Philadelphia, Elsevier, 2020, vol 3, chap 161, p 3674. 
 
-Quesion#97 ANSWER=A 
+Question#97 ANSWER=A 
 
 Adrenal crisis, or acute adrenal insufficiency, is life threatening. Signs and symptoms 
 
@@ -4102,7 +4102,7 @@ in women: AUA/CUA/SUFU Guideline. J UROL 2019;202:282.
 
 https://www.auanet.org/guidelines/guidelines/recurrent-uti 
 
-Question #J22 ANSWER=B 
+Question #122 ANSWER=B 
 
 The cavernosal nerves, branches of the parasympathetic plexus, travel within the 
 
@@ -4346,7 +4346,7 @@ stratification. Updated January 21, 2021. https://university.auanet.org/core/onc
 
 -adult/prostate-cancer-screening-diagnosis-and-risk-stratification/index.cfm 
 
-Question #J 26 ANSWER=A 
+Question #126 ANSWER=A 
 
 Water vapor thermal therapy (Rezum^) utilizes convective radiofrequency power to 
 
@@ -4575,7 +4575,7 @@ Niederberger CS, Ohlander SJ, Pagani RL: Male infertility, Partin AW, Peters CA,
 Kavoussi LR, Dmochowski RR, Wein AJ (eds): CAMPBELL WALSH WEIN UROLOGY, ed 
 
 12. Philadelphia, Elsevier, 2020, vol 2, chap 66, pp 1447-1448. 
-QuesNon #132 ANSWER=C 
+Question #132 ANSWER=C 
 
 The AUA Guidelines define microhematuria as the presence of greater than or equal 
 
