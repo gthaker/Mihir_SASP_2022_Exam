@@ -2,7 +2,19 @@ import pprint,sys,re,time
 import replicate
 
 
+# model = "meta/llama-2-7b-chat:8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e",
+#"model = "meta/llama-2-13b-chat:f4e2de70d66816a838a89eeeb621910adffb0dd0baba3976c96980970978018d",
+# model = "meta/llama-2-70b:a52e56fee2269a78c9279800ec88898cecb6c8f1df22a6483132bea266648f00",
+model = "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3"
+
+print_model = True
+
 def ask_llama_2(ques):
+    global print_model
+
+    if print_model:
+        print('model', model)
+        print_model = False
 
     qpart = '\n'.join(ques.q)
 
@@ -20,12 +32,9 @@ def ask_llama_2(ques):
 
     start = time.time()
     output = replicate.run(
-        #"meta/llama-2-7b-chat:8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e",
-        #"meta/llama-2-13b-chat:f4e2de70d66816a838a89eeeb621910adffb0dd0baba3976c96980970978018d",
-        #"meta/llama-2-70b:a52e56fee2269a78c9279800ec88898cecb6c8f1df22a6483132bea266648f00",
-        "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3",
+        model,
         input={"prompt": prompt,
-               "system_prompt": 'Act as if you are taking an exam. Select which answer A, B, C, or D is the correct answer in the prompt below. Only respond with a single letter A, B, C or D and provide no explanation.'
+               "system_prompt": 'Act as if you are taking an exam. Select which answer A, B, C, D or E is the correct answer in the prompt below. Only respond with a single letter A, B, C, D or E and provide no explanation.'
 
                }
     )

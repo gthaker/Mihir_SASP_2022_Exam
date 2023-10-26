@@ -2,8 +2,8 @@
 
 import re, sys, time, pickle
 import argparse, random
-#from palm_api import *
-from chatgpt_api import *
+from palm_api import *
+#from chatgpt_api import *
 #from llama_2_api import *
 
 parser = argparse.ArgumentParser(description='A program to read an exam\'s .pickle file and call various LLM API for all or subset of exam questions as specified by commandline args. Many cloud LLM servers meter the rate at which calls can be made to the API. Use --pace option to slow down the calls.')
@@ -48,8 +48,8 @@ for ques in all_ques:
         delta = 0
         print(f'test_mode answer_is_random: {ques.num=} {key=} {answer=}')
     else:
-        key, answer, delta = do_openai_call(ques)
-        #key, answer, delta = ask_palm(ques, args)
+        #key, answer, delta = do_openai_call(ques)
+        key, answer, delta = ask_palm(ques, args)
         #key, answer, delta = ask_llama_2(ques)
     if answer == None:
         no_answer_count += 1

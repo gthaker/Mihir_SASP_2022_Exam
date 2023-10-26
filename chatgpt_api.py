@@ -3,7 +3,7 @@ import os, time, re
 
 print_model = True
 
-def get_completion(prompt, model="gpt-3.5-turbo"):
+def get_completion(prompt, model="gpt-4"):
     global print_model
     messages = [{"role": "user", "content": prompt}]
     response = openai.ChatCompletion.create(

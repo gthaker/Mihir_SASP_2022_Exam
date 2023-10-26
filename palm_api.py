@@ -8,7 +8,7 @@ model = models[0].name
 print(model)
 
 def ask_palm(ques, args):
-    prompt = 'There will be a question stem below followed by 4 possible answers - A,B,C,D. Must provide an answer A,B,C,D only. \n '
+    prompt = 'There will be a question stem below followed by 5 possible answers - A,B,C,D or E. Must provide an answer A,B,C,D or E only. \n\n'
     qpart = '\n'.join(ques.q)
     prompt += qpart
 
