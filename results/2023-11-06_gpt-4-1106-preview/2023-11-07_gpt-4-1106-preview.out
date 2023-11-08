@@ -1,0 +1,279 @@
+args Namespace(skip=[6, 17, 23, 29, 40, 51, 62, 73, 79, 90, 101, 107, 113, 119, 120, 136, 142, 148], only=[], input='exams/text/SASP_2022_V2.QA.pickle', debug=0, limit=0, pace=30, temperature=0.0, test=False)
+len(all_ques)=148
+all_ques[0]=Question: year=2022  num=1  question ['A 65-year-old man in urinary retention has post-obstructive diuresis after ', 'catheterization and is managed with appropriate fluid replacement. Three days later, \n', 'urine output normalizes, but serum creatinine and BUN are unchanged at 6.8 mg/dL \n', 'and 95 mg/dL, respectively. The next step is: \n']
+len(options) 5
+A. observation. 
+B. increased fluid replacement. 
+C. renal ultrasound. 
+D. retrograde pyelography. 
+E. dialysis. 
+key C
+domain None
+citations None
+rationale None
+
+ques.num=1  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 65-year-old man in urinary retention has post-obstructive diuresis after \ncatheterization and is managed with appropriate fluid replacement. Three days later, \n\nurine output normalizes, but serum creatinine and BUN are unchanged at 6.8 mg/dL \n\nand 95 mg/dL, respectively. The next step is: \n\n\nA. observation. \nB. increased fluid replacement. \nC. renal ultrasound. \nD. retrograde pyelography. \nE. dialysis. \n'
+response.model gpt-4-1106-preview
+key='C' response='C. renal ultrasound.' delta=0.5549170970916748
+qcount=1  ques.num=1  delta=0.5549170970916748 result=True  sum_c=1  sum_w=0  fraction_correct=1.0
+=================================
+ques.num=2  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nThe vascular supply of an omental wrap is based on the: \n\nA. superior mesenteric artery. \nB. gastroduodenal artery. \nC. right gastroepiploic artery. \nD. short gastric artery. \nE. inferior mesenteric artery. \n'
+key='C' response='C. right gastroepiploic artery.' delta=0.4774746894836426
+qcount=2  ques.num=2  delta=0.4774746894836426 result=True  sum_c=2  sum_w=0  fraction_correct=1.0
+=================================
+ques.num=3  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 46-year-old man with a high velocity GSW to the right lower abdomen has a normal \nurinalysis. During laparotomy, a small bowel perforation and right iliac vein injury \n\nare repaired. Intraoperative IVP reveals prompt bilateral excretion of contrast with \n\nno extravasation. The next step is: \n\n\nA. no further evaluation. \nB. ureteral inspection. \nC. I.V. fluorescein. \nD. bladder filling with methylene blue. \nE. retrograde ureteropyelography. \n'
+key='B' response='A. no further evaluation.' delta=1.1711108684539795
+qcount=3  ques.num=3  delta=1.1711108684539795 result=False  sum_c=2  sum_w=1  fraction_correct=0.6666666666666666
+=================================
+ques.num=4  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 58-year-old man has frequency and nocturia, an AUA Symptom Score of 22, peak \nurinary flow rate of 8 mL/sec, and PVR of 200 mL. His prostate is 70 grams with a \n\nprominent median lobe. Sitting systolic blood pressure is 140 mmHg. An orthostatic \n\nblood pressure change of 25 mmHg is not associated with postural symptoms. He is \n\nconcerned about developing ejaculatory dysfunction. The best treatment is: \n\n\nA. finasteride. \nB. alfuzosin. \nC. TUIP. \nD. transurethral vaporization of the prostate. \nE. UroLift°. \n'
+key='B' response='B.' delta=0.32696008682250977
+qcount=4  ques.num=4  delta=0.32696008682250977 result=True  sum_c=3  sum_w=1  fraction_correct=0.75
+=================================
+ques.num=5  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nTwo months following closure of a traumatic bladder rupture associated with a pelvic \nfracture, a 20-year-old man is now voiding but has persistent leakage through his \n\nprior suprapubic tube site. The next step is: \n\n\nA. CT urogram. \nB. pelvic MRI scan. \nC. fistulogram. \nD. cystourethroscopy. \nE. UDS. \n'
+key='D' response='D.' delta=0.32485008239746094
+qcount=5  ques.num=5  delta=0.32485008239746094 result=True  sum_c=4  sum_w=1  fraction_correct=0.8
+=================================
+ques.num=7  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA five-year-old boy has day and night wetting, constipation, and fecal soiling. \nPhysical examination is normal except for a high-arched right foot. UDS shows \n\ndetrusor overactivity and normal sphincter function. PVR is 5 mL. The next step is: \n\n\nA. CIC. \nB. timed voiding schedule. \nC. spinal MRI scan. \nD. antimuscarinics. \nE. bowel program. \n'
+key='C' response='C.' delta=0.4584932327270508
+qcount=6  ques.num=7  delta=0.4584932327270508 result=True  sum_c=5  sum_w=1  fraction_correct=0.8333333333333334
+=================================
+ques.num=8  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 70-year-old woman has intermittent large volume urinary incontinence. Her \nmedical history is significant for a hysterectomy 20 years ago. Urinalysis is normal and \n\nPVR is 40 mL. During the CMG, there is no incontinence demonstrated during fillingand stress maneuvers, and the end fill pressure is 6 cm H O at 300 mL. The most likely \n\ncause of her incontinence is: \n\n\nA. overflow. \nB. detrusor overactivity.\nC. decreased detrusor compliance. \nD. intrinsic sphincter deficiency. \nE. VVF. \n'
+key='B' response='D.' delta=5.8155717849731445
+qcount=7  ques.num=8  delta=5.8155717849731445 result=False  sum_c=5  sum_w=2  fraction_correct=0.7142857142857143
+=================================
+ques.num=9  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nThe manifestation of the VHL syndrome that tends to cluster within a subset of \naffected families is: \n\n\nA. RCC. \nB. pheochromocytoma.\nC. retinal angioma. \nD. cerebellar hemangioblastoma. \nE. epididymal papillary cystadenoma. \n'
+key='B' response='B. pheochromocytoma.' delta=0.45372509956359863
+qcount=8  ques.num=9  delta=0.45372509956359863 result=True  sum_c=6  sum_w=2  fraction_correct=0.75
+=================================
+ques.num=10  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 37-year-old woman with a continent cutaneous urinary diversion becomes febrile \nand develops mental status changes and marked hepatic dysfunction. Previously, her \n\nhepatic function had been normal. In addition to prompt urinary drainage and \n\nsystemic antibiotics, the next step is: \n\n\nA. lactulose. \nB. Vitamin B12. \nC. sodium bicarbonate. \nD. nicotinic acid. \nE. thiamine and folic acid. \n'
+key='A' response='A.' delta=0.6950771808624268
+qcount=9  ques.num=10  delta=0.6950771808624268 result=True  sum_c=7  sum_w=2  fraction_correct=0.7777777777777778
+=================================
+ques.num=11  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 67-year-old man has an IPSS of 25 and a bother score of 5. He has no history of \nurinary retention, infections or stones, and has normal renal function. DRE reveals a \n\n\nA. observation. \nB. alpha-blocker. \nC. 5-alpha-reductase inhibitor. \nD. alpha-blocker and 5-alpha-reductase inhibitor. \nE. UroLift”. \n'
+key='B' response='D' delta=0.41436076164245605
+qcount=10  ques.num=11  delta=0.41436076164245605 result=False  sum_c=7  sum_w=3  fraction_correct=0.7
+=================================
+ques.num=12  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nDuring laparoscopic left radical nephrectomy, minimal placement of clips on theprimary branches of the main renal vein is most important to facilitate: \n\nA. lymphadenectomy. \nB. en bloc excision with negative margins. \nC. adrenalectomy. \nD. application of the endovascular stapler onto the main renal vein. \nE. dissection and occlusion of the main renal artery(ies). \n'
+key='D' response='D' delta=0.34555625915527344
+qcount=11  ques.num=12  delta=0.34555625915527344 result=True  sum_c=8  sum_w=3  fraction_correct=0.7272727272727273
+=================================
+ques.num=13  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 48-year-old man undergoes partial nephrectomy for a 3 cm renal mass. His flank \ndrain is removed on the third postoperative day. Seven days later, he has clear fluid \n\ndripping from the flank drain site. He is otherwise asymptomatic. CT scan \n\ndemonstrates a 5 cm by 10 cm fluid collection adjacent to the kidney with \n\nextravasation of contrast from the collecting system. The next step is: \n\n\nA. observation. \nB. urethral catheter. \nC. percutaneous drainage of urinoma. \nD. PCNT. \nE. ureteral stent. \n'
+key='C' response='C. percutaneous drainage of urinoma.' delta=0.5894362926483154
+qcount=12  ques.num=13  delta=0.5894362926483154 result=True  sum_c=9  sum_w=3  fraction_correct=0.75
+=================================
+ques.num=14  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 23-year-old addict is treated with I.V. antibiotics and percutaneous drainage for a \nrenal abscess. Forty-eight hours after admission, he continues to have high fever and \n\nis found injecting himself with heroin. He physically assaults a security guard and now \n\ndemands to be discharged against medical advice. The next step is: \n\n\nA. discharge from the hospital on oral antibiotic therapy. \nB. allow discharge against medical advice. \nC. sedation, physical restraint, and continue treatment. \nD. transfer to a chemical dependency unit. \nE. notify legal authorities and continue treatment. \n'
+key='E' response='C.' delta=0.34595775604248047
+qcount=13  ques.num=14  delta=0.34595775604248047 result=False  sum_c=9  sum_w=4  fraction_correct=0.6923076923076923
+=================================
+ques.num=15  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 72-year-old man is noted to have a large bladder on a CT scan performed for colonic \ndiverticular disease. He has no LUTS. His prostate is 30 grams and benign. PVR is 350 \n\nmL. Urinalysis is negative. The next step is: \n\n\nA. observation. \nB. alpha-blocker. \nC. 5-alpha-reductase inhibitor. \nD. 5-alpha-reductase inhibitor and an alpha-blocker. \nE. Rezum”. \n'
+key='A' response='A.' delta=0.46617984771728516
+qcount=14  ques.num=15  delta=0.46617984771728516 result=True  sum_c=10  sum_w=4  fraction_correct=0.7142857142857143
+=================================
+ques.num=16  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nOne hundred patients undergo abdominal imaging for staging prior to RPLND. \nRetroperitoneal metastatic disease is confirmed in 50 patients at surgery. With \n\nimaging, there were 20 false positives and 10 false negatives. The sensitivity of the \n\nimaging is: \n\n\nA. 50%. \nB. 60%. \nC. 67%. \nD. 75%. \nE. 80%. \n'
+key='E' response='D.' delta=0.3162539005279541
+qcount=15  ques.num=16  delta=0.3162539005279541 result=False  sum_c=10  sum_w=5  fraction_correct=0.6666666666666666
+=================================
+ques.num=18  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 28-year-old man has acute scrotal pain. Ultrasound reveals testicular torsion. The \nconsulting urologist is unavailable and asks that pain medication be withheld until \n\nsurgical consent can be obtained in one hour. The ER physician should: \n\n\nA. withhold pain medication. \nB. administer appropriate analgesics. \nC. transfer to nearest hospital. \nD. obtain consent for surgery. \nE. give pain medication and obtain consent from a relative. \n'
+key='B' response='B. administer appropriate analgesics.' delta=1.211580514907837
+qcount=16  ques.num=18  delta=1.211580514907837 result=True  sum_c=11  sum_w=5  fraction_correct=0.6875
+=================================
+ques.num=19  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 47-year-old woman has SUI and a urethral diverticulum. UDS demonstrates a \nValsalva LPP of 50 cm H 0. The best treatment is urethral diverticulectomy and: \n\n\nA. staged urethral bulking if SUI persists.\nB. Martius fat pad. \nC. pubovaginal sling. \nD. midurethral sling. \nE. Burch colposuspension. \n'
+key='C' response='C. pubovaginal sling.' delta=0.5126018524169922
+qcount=17  ques.num=19  delta=0.5126018524169922 result=True  sum_c=12  sum_w=5  fraction_correct=0.7058823529411765
+=================================
+ques.num=20  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 55-year-old man with erectile dysfunction has a 60 degree ventral curvature of his \npenis of 18 months duration. On duplex Doppler ultrasound, his peak systolic \n\nvelocities are 40 cm/sec; end-diastolic velocities are 10 cm/sec bilaterally. The next step \n\nis: \n\n\nA. intralesional verapamil. \nB. shockwave therapy. \nC. penile plication. \nD. plaque incision and grafting. \nE. placement of a penile implant. \n'
+key='E' response='C. penile plication.' delta=0.7409486770629883
+qcount=18  ques.num=20  delta=0.7409486770629883 result=False  sum_c=12  sum_w=6  fraction_correct=0.6666666666666666
+=================================
+ques.num=21  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nAn asymptomatic five-year-old boy has gross hematuria two hours after wrestling \nwith his younger brother. Physical examination is normal. The next step is: \n\n\nA. observation. \nB. serial examinations and hematocrit determination. \nC. ultrasound of bladder and kidneys. \nD. CT scan. \nE. cystoscopy. \n'
+key='C' response='C.' delta=0.30930399894714355
+qcount=19  ques.num=21  delta=0.30930399894714355 result=True  sum_c=13  sum_w=6  fraction_correct=0.6842105263157895
+=================================
+ques.num=22  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 32-year-old woman with severe pyelonephritis is receiving ampicillin combined \nwith a single daily dose of gentamicin, 7 mg/kg. After 36 hours, she remains febrile \n\nand has persistent flank pain. Following the second dose, a trough serum gentamicin \n\nlevel is 12 mcg/mL (normal is 5-10 mcg/mL). The next step is: \n\n\nA. continue current gentamicin regimen. \nB. continue gentamicin and start n-acetylcysteine. \nC. decrease gentamicin dose. \nD. decrease gentamicin frequency. \nE. discontinue gentamicin and start aztreonam. \n'
+key='D' response='C.' delta=0.37413859367370605
+qcount=20  ques.num=22  delta=0.37413859367370605 result=False  sum_c=13  sum_w=7  fraction_correct=0.65
+=================================
+ques.num=24  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 65-year-old man uses 20 mg of tadalafil as needed for erectile dysfunction. Hisprimary care provider would like to initiate doxazosin for hypertension. The next step \niS: \n\n\nA. continue tadalafil 20 mg as needed. \nB. decrease tadalafil to 10 mg as needed. \nC. start tadalafil 5 mg daily. \nD. stop tadalafil. \nE. switch to intracorporal alprostadil. \n'
+key='B' response='B.' delta=0.31832337379455566
+qcount=21  ques.num=24  delta=0.31832337379455566 result=True  sum_c=14  sum_w=7  fraction_correct=0.6666666666666666
+=================================
+ques.num=25  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 58-year-old man has fever, chills, and elevated alanine aminotransferase and \naspartate aminotransferase two days after receiving his fourth dose of intravesical \n\nBCG for bladder cancer. Urinalysis was notable only for occasional RBCs. In addition \n\nto supportive care, isoniazid, and rifampin, the next step is:\n\n\nA. pyrazinamide. \nB. cycloserine. \nC. corticosteroids. \nD. cyclosporine.\nE. gentamicin. \n'
+key='C' response='C. corticosteroids.' delta=0.46215081214904785
+qcount=22  ques.num=25  delta=0.46215081214904785 result=True  sum_c=15  sum_w=7  fraction_correct=0.6818181818181818
+=================================
+ques.num=26  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA six-year-old boy with a history of neonatally ablated PUV has worsening bilateral \nhydroureteronephrosis despite timed voiding. He is incontinent at night and \n\noccasionally wet during the day. A 24-hour urine collection shows a urine volume of \n\n2 L. UDS shows adequate compliance, no detrusor overactivity, no residual valves,\n\nand no VUR. The next step is: \n\n\nA. decreased fluid intake. \nB. dietary salt restriction. \nC. DDAVP. \nD. CIC. \nE. continuous nighttime catheterization. \n'
+key='E' response='C. DDAVP.' delta=0.5517666339874268
+qcount=23  ques.num=26  delta=0.5517666339874268 result=False  sum_c=15  sum_w=8  fraction_correct=0.6521739130434783
+=================================
+ques.num=27  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 65-year-old woman with chronic irritative voiding symptoms has persistent pansensitive \nE. coli UTIs. A renal ultrasound is normal, but cystoscopy shows several raised \n\nlesions in the bladder. Transurethral resection is performed. Pathologic study reveals \n\ngiant cells and histiocytes containing concentrically laminated calcific inclusions. The \n\nnext step is: \n\n\nA. trimethoprim/sulfamethoxazole. \nB. fluconazole. \nC. dimethylsulfoxide. \nD. corticosteroids. \nE. isoniazid and rifampin. \n'
+key='A' response='D. corticosteroids.' delta=2.421661138534546
+qcount=24  ques.num=27  delta=2.421661138534546 result=False  sum_c=15  sum_w=9  fraction_correct=0.625
+=================================
+ques.num=28  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nPrimary idiopathic bladder stones in children form due to high urinary excretion of: \n\nA. ammonia. \nB. phosphate. \nC. sodium. \nD. calcium. \nE. oxalate. \n'
+key='A' response='D. calcium.' delta=0.37218356132507324
+qcount=25  ques.num=28  delta=0.37218356132507324 result=False  sum_c=15  sum_w=10  fraction_correct=0.6
+=================================
+ques.num=30  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nSix months after placement of a sacral neuromodulator, a 35-year-old woman is \nsuddenly unable to sense the stimulation and her urinary urgency symptoms return. \n\nInterrogation of the device reveals elevated impedance measurements on two \n\nelectrodes within the quadripolar lead. The next step is: \n\n\nA. change pulse width of stimulation. \nB. turn the device off and recheck impedances. \nC. reprogram using the other two electrodes. \nD. surgical exploration to check lead connections. \nE. place new leads. \n'
+key='C' response='C.' delta=0.33077573776245117
+qcount=26  ques.num=30  delta=0.33077573776245117 result=True  sum_c=16  sum_w=10  fraction_correct=0.6153846153846154
+=================================
+ques.num=31  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nBecause of the increased risk of adenocarcinoma of the bladder after bladder \naugmentation cystoplasty, current recommendations for annual monitoring include: \n\n\nA. urine cytology. \nB. urine fluorescence in-situ hybridization (FISH) analysis. \nC. serum carcinoembryonic antigen (CEA) level. \nD. renal and bladder ultrasound. \nE. cystoscopy. \n'
+key='D' response='E.' delta=0.4353201389312744
+qcount=27  ques.num=31  delta=0.4353201389312744 result=False  sum_c=16  sum_w=11  fraction_correct=0.5925925925925926
+=================================
+ques.num=32  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 26-year-old man with significant obstructive voiding symptoms has a 3 cm distal \nbulbar urethral stricture. The next step is: \n\n\nA. urethral dilation. \nB. laser urethrotomy. \nC. direct vision internal urethrotomy (DVIU). \nD. excision and primary anastomosis. \nE. substitution urethroplasty with graft. \n'
+key='E' response='D.' delta=0.34053969383239746
+qcount=28  ques.num=32  delta=0.34053969383239746 result=False  sum_c=16  sum_w=12  fraction_correct=0.5714285714285714
+=================================
+ques.num=33  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 56-year-old man undergoes a radical cystoprostatectomy and orthotopic \nneobladder. Long-term preservation of renal function is most dependent on: \n\n\nA. preferential use of ileum over colon. \nB. use of > 60 cm of detubularized bowel. \nC. performance of an antirefluxing ureteroileal anastomosis. \nD. intraoperative neobladder capacity of > 500 mL. \nE. postoperative avoidance of any bacteriuria. \n'
+key='A' response='C.' delta=0.34961748123168945
+qcount=29  ques.num=33  delta=0.34961748123168945 result=False  sum_c=16  sum_w=13  fraction_correct=0.5517241379310345
+=================================
+ques.num=34  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nDuring vaginal repair of a post-hysterectomy VVF located near the vaginal vault apex,\nthe easiest tissue to interpose as a flap/graft is: \n\n\nA. buccal mucosa. \nB. peritoneum. \nC. omentum. \nD. Martius fat pad.\nE. pracilis. \n'
+key='B' response='C. omentum.' delta=0.411297082901001
+qcount=30  ques.num=34  delta=0.411297082901001 result=False  sum_c=16  sum_w=14  fraction_correct=0.5333333333333333
+=================================
+ques.num=35  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 60-year-old man is diagnosed with a single focus of CIS of the bladder. He is treated \nwith six doses of intravesical BCG. One month after his last dose, his cystoscopy is \n\nnormal, and his cytology is negative. The next step is: \n\n\nA. bladder biopsy to confirm complete response. \nB. observation with regular surveillance cystoscopy and cytology. \nC. maintenance BCG with the first of three weekly doses at three months. \nD. maintenance BCG with the first of three weekly doses at six months. \nE. maintenance BCG single monthly dose for one year. \n'
+key='C' response='B.' delta=0.4646577835083008
+qcount=31  ques.num=35  delta=0.4646577835083008 result=False  sum_c=16  sum_w=15  fraction_correct=0.5161290322580645
+=================================
+ques.num=36  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 45-year-old man has a two-year history of frequency, diminished stream, and \nperineal discomfort. Examination, urinalysis, localization cultures, and cytology are \n\nall normal. Trials of antibiotics and an alpha-blocker have been unsuccessful. \n\nUroflowmetry with EMG reveals a peak flow of 9 mL/sec, a voided volume of 160 mL, \n\nsynergistic voiding, and a PVR of 100 mL. The next step is: \n\n\nA. TRUS. \nB. videourodynamics. \nC. NSAIDS. \nD. amitriptyline. \nE. pelvic floor physiotherapy. \n'
+key='B' response='B.' delta=0.5951821804046631
+qcount=32  ques.num=36  delta=0.5951821804046631 result=True  sum_c=17  sum_w=15  fraction_correct=0.53125
+=================================
+ques.num=37  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 24-year-old man undergoes infertility evaluation. Physical examination reveals \nbilateral absence of the vas deferens. His semen analysis characteristics should include \n\nazoospermia and: \n\n\nA. an ejaculate volume of 3 mL. \nB. a semen pH of6.3. \nC. semen liquefaction within 30 minutes. \nD. semen coagulum formation. \nE. normal semen fructose. \n'
+key='B' response='A.' delta=0.35373902320861816
+qcount=33  ques.num=37  delta=0.35373902320861816 result=False  sum_c=17  sum_w=16  fraction_correct=0.5151515151515151
+=================================
+ques.num=38  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 70-year-old man has a 2 cm high-grade squamous cell carcinoma of the distal \nurethra. MRI scan demonstrates invasion of the corpora and no lymphadenopathy. \n\nThe next step is: \n\n\nA. partial penectomy. \nB. total penectomy with perineal urethrostomy. \nC. partial penectomy with bilateral pelvic lymphadenectomy. \nD. total penectomy, perineal urethrostomy, and bilateral pelvic \n\nlymphadenectomy. \nE. partial penectomy with bilateral inguinal lymphadenectomy. \n'
+key='A' response='B. total penectomy with perineal urethrostomy.' delta=0.6904754638671875
+qcount=34  ques.num=38  delta=0.6904754638671875 result=False  sum_c=17  sum_w=17  fraction_correct=0.5
+=================================
+ques.num=39  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 50-year-old man has secondary infertility. He has been on tamsulosin and \nfinasteride for three years. Examination is unremarkable and DRE reveals a 40 gram \n\nprostate. Semen analysis shows a volume of 0.4 mL, sperm concentration of 9 \n\nmillion/mL, and 30% motility. The next step is: \n\n\nA. switch tamsulosin to silodosin. \nB. discontinue finasteride. \nC. discontinue finasteride and tamsulosin. \nD. pseudoephedrine. \nE. imipramine. \n'
+key='C' response='B. discontinue finasteride.' delta=0.5876903533935547
+qcount=35  ques.num=39  delta=0.5876903533935547 result=False  sum_c=17  sum_w=18  fraction_correct=0.4857142857142857
+=================================
+ques.num=41  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nThe best initial medical treatment for newly diagnosed prostate cancer with painful \nspinal metastases and new lower extremity weakness is: \n\n\nA. enzalutamide. \nB. abiraterone acetate. \nC. relugolix. \nD. leuprolide. \nE. degarelix. \n'
+key='E' response='E. degarelix.' delta=0.676811695098877
+qcount=36  ques.num=41  delta=0.676811695098877 result=True  sum_c=18  sum_w=18  fraction_correct=0.5
+=================================
+ques.num=42  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 24-year-old man is involved in a high speed MVC. CT scan reveals prompt uptake \nof contrast in the left kidney with a UPJ disruption. The right kidney is normal. He is \n\nhemodynamically stable with a normal hemoglobin. The next step is: \n\n\nA. ureteral stent. \nB. PCNT. \nC. PCNT and perinephric drain. \nD. flank exploration. \nE. transabdominal exploration. \n'
+key='E' response='A. ureteral stent.' delta=0.4342823028564453
+qcount=37  ques.num=42  delta=0.4342823028564453 result=False  sum_c=18  sum_w=19  fraction_correct=0.4864864864864865
+=================================
+ques.num=43  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA seven-year-old boy has testes in the upper portion of the scrotum that can be \nbrought down into the dependent portion with some mild tension. They retract into \n\nthe inguinal canal with body movement but return to their original upper scrotal \n\nposition with relaxation. The next step is: \n\n\nA. reassurance. \nB. follow-up with annual exams. \nC. scrotal ultrasound. \nD. beta-hCG. \nE. orchidopexy. \n'
+key='B' response='A.' delta=0.33936357498168945
+qcount=38  ques.num=43  delta=0.33936357498168945 result=False  sum_c=18  sum_w=20  fraction_correct=0.47368421052631576
+=================================
+ques.num=44  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 60-year-old woman with weight loss has a 9 cm clear cell RCC with sarcomatoid \nfeatures and three 1-1.5 cm pulmonary nodules. Hemoglobin is 8.0 mg/dL and \n\nremaining laboratory studies are normal. The next step is: \n\n\nA. avelumab. \nB. pembrolizumab. \nC. ipilimumab and nivolumab. \nD. lenvatinib and everolimus. \nE. nephrectomy. \n'
+key='C' response='C. ipilimumab and nivolumab.' delta=0.5192112922668457
+qcount=39  ques.num=44  delta=0.5192112922668457 result=True  sum_c=19  sum_w=20  fraction_correct=0.48717948717948717
+=================================
+ques.num=45  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 25-year-old woman has a chronic history of intermittent urinary stream and lower \nabdominal discomfort without significant urinary urgency. Physical examination is \n\nnormal and PVR is 1 L. MRI scan of the brain and spine is normal, as is cystoscopy. \n\nPressure flow analysis shows an active EMG during voiding. She has failed treatment \n\nwith biofeedback and prefers not to do CIC. The next step is: \n\n\nA. vaginal estrogen therapy. \nB. alpha-blocker therapy. \nC. onabotulinumtoxinA of the sphincter. \nD. sacral neuromodulation. \nE. sphincterotomy. \n'
+key='D' response='D. sacral neuromodulation.' delta=0.6388735771179199
+qcount=40  ques.num=45  delta=0.6388735771179199 result=True  sum_c=20  sum_w=20  fraction_correct=0.5
+=================================
+ques.num=46  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 64-year-old man undergoes a partial penectomy for a high-grade pT1 squamous \ncell carcinoma of the penis and then chooses surveillance in follow-up. Nine months \n\nlater, a 2 cm lymph node is palpated in the left inguinal region. CT scan is negative \n\nfor additional lymphadenopathy or metastatic disease. The next step is: \n\n\nA. four weeks of antibiotics. \nB. left superficial inguinal lymph node dissection. \nC. left superficial and deep inguinal lymph node dissection. \nD. bilateral superficial and deep inguinal lymph node dissection. \nE. excisional biopsy with systemic chemotherapy. \n'
+key='C' response='B. left superficial inguinal lymph node dissection.' delta=0.5598585605621338
+qcount=41  ques.num=46  delta=0.5598585605621338 result=False  sum_c=20  sum_w=21  fraction_correct=0.4878048780487805
+=================================
+ques.num=47  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 35-year-old man with spina bifida has urinary incontinence despite antimuscarinics \nand CIC every three hours. UDS show detrusor overactivity and a detrusor LPP of 60 \n\ncm H2O at 200 mL. Continence is achieved two weeks after intradetrusor injection of \n\n200 U of onabotulinumtoxinA. The next step is: \n\n\nA. increase time between catheterizations. \nB. repeat onabotulinumtoxinA in six months. \nC. repeat onabotulinumtoxinA when incontinence returns. \nD. repeat onabotulinumtoxinA when UDS evidence of detrusor overactivity \n\nreturns. \nE. repeat UDS now. \n'
+key='E' response='C. repeat onabotulinumtoxinA when incontinence returns.' delta=0.6195311546325684
+qcount=42  ques.num=47  delta=0.6195311546325684 result=False  sum_c=20  sum_w=22  fraction_correct=0.47619047619047616
+=================================
+ques.num=48  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nDuring left laparoscopic adrenalectomy, a 3 cm area at the upper medial pole of the \nkidney becomes pale following complete mobilization of the adrenal gland. The next \n\nstep is: \n\n\nA. observation. \nB. I.V. fluid bolus. \nC. I.V. heparin. \nD. I.V. mannitol. \nE. partial nephrectomy. \n'
+key='A' response='A.' delta=0.33896827697753906
+qcount=43  ques.num=48  delta=0.33896827697753906 result=True  sum_c=21  sum_w=22  fraction_correct=0.4883720930232558
+=================================
+ques.num=49  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 12-year-old boy has a radical orchiectomy for a paratesticular rhabdomyosarcomaconfined to the spermatic cord. CT scan of the abdomen and pelvis is negative for \nmetastatic disease. The next step is: \n\n\nA. observation with CT scan every three months for the next year. \nB. ipsilateral retroperitoneal XRT. \nC. chemotherapy with vincristine and dactinomycin. \nD. chemotherapy with vincristine, dactinomycin, and cyclophosphamide. \nE. ipsilateral RPLND. \n'
+key='E' response='D' delta=0.5242538452148438
+qcount=44  ques.num=49  delta=0.5242538452148438 result=False  sum_c=21  sum_w=23  fraction_correct=0.4772727272727273
+=================================
+ques.num=50  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 58-year-old woman is unable to catheterize her right colon pouch and has \nincreasing right lower quadrant pressure and severe pain. A 14 Fr straight or Coudétip \n\ncatheter can only pass 4 cm and there is no return of urine. The next step is: \n\n\nA. dilation of stoma. \nB. channel cannulation under fluoroscopic guidance. \nC. percutaneous drainage of pouch.\nD. bilateral PCNT placement. \nE. open surgical revision. \n'
+key='C' response='B. channel cannulation under fluoroscopic guidance.' delta=0.45332884788513184
+qcount=45  ques.num=50  delta=0.45332884788513184 result=False  sum_c=21  sum_w=24  fraction_correct=0.4666666666666667
+=================================
+ques.num=52  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 75-year-old man with fatigue has a 3.0 cm renal mass with retroperitoneal and \nmediastinal lymphadenopathy. Serum creatinine is 1.7 mg/dL, and metastatic \n\nevaluation is otherwise negative. The next step is: \n\n\nA. renal mass biopsy. \nB. lymph node biopsy. \nC. percutaneous ablation followed by ipilimumab and nivolumab. \nD. partial nephrectomy followed by cabozantinib and nivolumab. \nE. radical nephrectomy with RPLND followed by axitinib and pembrolizumab. \n'
+key='B' response='B.' delta=0.33173179626464844
+qcount=46  ques.num=52  delta=0.33173179626464844 result=True  sum_c=22  sum_w=24  fraction_correct=0.4782608695652174
+=================================
+ques.num=53  prompt="\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 25-year-old man has severe diurnal and nocturnal urinary urgency, frequency, and \nintermittent gross hematuria. Urine culture is negative. CT urogram reveals a small \n\nthick-walled bladder but is otherwise unremarkable. Cystoscopy reveals multiple \n\nglomerulations and petechial hemorrhages and no Hunner's lesions. Bladder biopsy \n\nshows severe inflammation and epithelial denudation. The most likely etiology is: \n\n\nA. ketamine abuse. \nB. genitourinary tuberculosis. \nC. malakoplakia. \nD. herpes simplex virus. \nE. cytomegalovirus. \n"
+key='A' response='A.' delta=0.33469414710998535
+qcount=47  ques.num=53  delta=0.33469414710998535 result=True  sum_c=23  sum_w=24  fraction_correct=0.48936170212765956
+=================================
+ques.num=54  prompt="\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 28-year-old man with infertility for two years has a normal physical examination. \nSemen analysis reveals a volume of 4.0 mL, sperm concentration of 12 million \n\nsperm/mL, and motility of 60%. Repeat analysis is similar. The 25-year-old female \n\npartner's evaluation is normal. The next step is: \n\n\nA. post-ejaculatory urinalysis. \nB. genetic testing. \nC. scrotal ultrasound. \nD. intrauterine insemination. \nE. in vitro fertilization/ICSI. \n"
+key='D' response='E. in vitro fertilization/ICSI.' delta=0.6577346324920654
+qcount=48  ques.num=54  delta=0.6577346324920654 result=False  sum_c=23  sum_w=25  fraction_correct=0.4791666666666667
+=================================
+ques.num=55  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nWhile using an argon beam electrocoagulator during a laparoscopic partial \nnephrectomy, poor tidal volumes are noted. The next step is to: \n\n\nA. obtain deeper sedation. \nB. increase ventilation rate. \nC. add positive end-expiratory pressure (PEEP). \nD. decrease CO insufflation flow rate. \nE. release pneumoperitoneum. \n'
+key='E' response='E.' delta=0.33466315269470215
+qcount=49  ques.num=55  delta=0.33466315269470215 result=True  sum_c=24  sum_w=25  fraction_correct=0.4897959183673469
+=================================
+ques.num=56  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 41-year-old, morbidly obese man with a low libido and a testosterone of 201 ng/dL \nis seeking treatment for erectile dysfunction. The next step is: \n\n\nA. exercise. \nB. sildenafil. \nC. clomiphene bitrate. \nD. transdermal testosterone. \nE. intramuscular testosterone. \n\n0 2022 American Urological Association. All Rights Reserved. \n'
+key='B' response='D' delta=0.32762622833251953
+qcount=50  ques.num=56  delta=0.32762622833251953 result=False  sum_c=24  sum_w=26  fraction_correct=0.48
+=================================
+ques.num=57  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nWhile being positioned prone for PCNL access to treat a struvite partial staghorn \nrenal calculus, a morbidly obese patient develops markedly increased airway \n\npressures. After returning the patient to the supine position, airway pressures \n\nnormalize. The next step is to: \n\n\nA. terminate the procedure and start acetohydroxamic therapy. \nB. convert to ureteroscopy and laser lithotripsy. \nC. convert to robotic anatrophic nephrolithotomy. \nD. proceed with supine PCNL. \nE. perform prone PCNL with increased positive end expiratory pressure. \n'
+key='D' response='D.' delta=0.3467884063720703
+qcount=51  ques.num=57  delta=0.3467884063720703 result=True  sum_c=25  sum_w=26  fraction_correct=0.49019607843137253
+=================================
+ques.num=58  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 66-year-old woman has dysuria and light bleeding noted on her underwear and \ntoilet paper after urinating. On examination, she has a 1 cm circumferential urethral \n\nprolapse and the tissue is pink and mucosal appearing. PVR is 95 mL and urinalysis \n\nshows 0-2 RBC/hpf and 0-2 WBC/hpf. Her last pap smear from one year ago was \n\nnormal. The next step is: \n\n\nA. topical estrogen. \nB. pelvic ultrasound. \nC. pelvic MRI scan. \nD. biopsy. \nE. excision. \n'
+key='B' response='A.' delta=0.34047842025756836
+qcount=52  ques.num=58  delta=0.34047842025756836 result=False  sum_c=25  sum_w=27  fraction_correct=0.4807692307692308
+=================================
+ques.num=59  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 32-year-old man has a right radical orchiectomy for a pure seminoma in a solitary \ntesticle. Preoperative staging studies are negative for metastasis and tumor markers \n\nare normal. Two weeks after orchiectomy, his beta-hCG is 12 mIU/mL. The next step \n\nis: \n\n\nA. exogenous testosterone and repeat markers. \nB. CT scan of chest, abdomen, and pelvis. \nC. PET-CT scan. \nD. brain MRI scan. \nE. carboplatin. \n'
+key='A' response='B. CT scan of chest, abdomen, and pelvis.' delta=0.7693643569946289
+qcount=53  ques.num=59  delta=0.7693643569946289 result=False  sum_c=25  sum_w=28  fraction_correct=0.4716981132075472
+=================================
+ques.num=60  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nRegarding family members of a child with VUR, VCUG screening should be performed \nin: \n\n\nA. all siblings.\nB. all offspring. \nC. any non-toilet-trained sibling.\nD. any sibling with prenatal hydroureteronephrosis. \nE. any sibling with prenatal bilateral pelviectasis. \n'
+key='D' response='D.' delta=0.3418302536010742
+qcount=54  ques.num=60  delta=0.3418302536010742 result=True  sum_c=26  sum_w=28  fraction_correct=0.48148148148148145
+=================================
+ques.num=61  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nDuring PCNL, the urologist moves from three feet away from the x-ray source to six \nfeet away. Radiation exposure is: \n\n\nA. not appreciably different. \nB. one-half the original value. \nC. one-third the original value. \nD. one-fourth the original value. \nE. one-eighth the original value. \n'
+key='D' response='D. one-fourth the original value.' delta=0.6545112133026123
+qcount=55  ques.num=61  delta=0.6545112133026123 result=True  sum_c=27  sum_w=28  fraction_correct=0.4909090909090909
+=================================
+ques.num=63  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nAs compared with conventional laparoscopic donor nephrectomy, the hand-assisted \napproach is associated with: \n\n\nA. increased incidence of ureteral strictures. \nB. shorter warm ischemia times. \nC. decreased blood loss. \nD. longer hospitalizations. \nE. delayed allograft function. \n'
+key='B' response='B.' delta=0.35795116424560547
+qcount=56  ques.num=63  delta=0.35795116424560547 result=True  sum_c=28  sum_w=28  fraction_correct=0.5
+=================================
+ques.num=64  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 64-year-old man with a PSA of 17.5 ng/mL has high volume Gleason 4+3=7 prostate \ncancer and desires radical prostatectomy. Bone scan reveals increased uptake in the \n\n12th thoracic vertebra. A plain x-ray film is negative. The next step is: \n\n\nA. proceed with surgery.\nB. FDG-PET scan. \nC. MRI scan of spine.\nD. ADT for three months then follow-up bone scan. \nE. bone biopsy. \n'
+key='C' response='C. MRI scan of spine.' delta=0.5504968166351318
+qcount=57  ques.num=64  delta=0.5504968166351318 result=True  sum_c=29  sum_w=28  fraction_correct=0.5087719298245614
+=================================
+ques.num=65  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 14-year-old boy with a thoracic spinal cord injury is incontinent despite tolterodine \nand CIC every four hours. He is dry after starting extended-release oxybutynin 15 mg,\n\nbut develops severe dry mouth, constipation, and difficulty concentrating at school \n\nwithin two weeks. Following discontinuation of oxybutynin, the next step is: \n\n\nA. polyethylene glycol (MiraLAX° and increase hydration. \nB. oral imipramine. \nC. intravesical oxybutynin. \nD. intradetrusor onabotulinumtoxinA. \nE. augmentation cystoplasty. \n'
+key='C' response='D.' delta=0.36209535598754883
+qcount=58  ques.num=65  delta=0.36209535598754883 result=False  sum_c=29  sum_w=29  fraction_correct=0.5
+=================================
+ques.num=66  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA man has numbness of the right anterior scrotum and medial thigh after pelvic \nlymphadenectomy. The nerve most likely injured is the: \n\n\nA. femoral. \nB. genitofemoral. \nC. iliohypogastric. \nD. ilioinguinal.\nE. lateral femoral cutaneous. \n'
+key='B' response='B. genitofemoral.' delta=0.47307825088500977
+qcount=59  ques.num=66  delta=0.47307825088500977 result=True  sum_c=30  sum_w=29  fraction_correct=0.5084745762711864
+=================================
+ques.num=67  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 69-year-old man undergoes a robotic simple prostatectomy for a 150 gram \nprostate. A 22 Fr 3-way urethral catheter with continuous bladder irrigation is in \n\nplace. Gross hematuria with clots is noted in the recovery room. Vitals are stable. The \n\nnext step is manual irrigation and: \n\n\nA. observation. \nB. upsize urethral catheter. \nC. add water to urethral catheter balloon and place catheter on traction. \nD. cystoscopy and fulguration. \nE. re-exploration in operating room. \n'
+key='C' response='A.' delta=0.33458852767944336
+qcount=60  ques.num=67  delta=0.33458852767944336 result=False  sum_c=30  sum_w=30  fraction_correct=0.5
+=================================
+ques.num=68  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 28-year-old man with abnormal semen parameters has a left testicular biopsy.\nPathology reveals germ cell neoplasia in situ (GCNIS). He has a palpably normal \n\ncontralateral testis and desires a biologic Child. The next step is: \n\n\nA. surveillance with periodic testicular ultrasound. \nB. right testicular biopsy. \nC. low dose XRT to the left testicle. \nD. single agent carboplatin chemotherapy. \nE. left radical orchiectomy with sperm harvesting. \n'
+key='A' response='E. left radical orchiectomy with sperm harvesting.' delta=0.6158173084259033
+qcount=61  ques.num=68  delta=0.6158173084259033 result=False  sum_c=30  sum_w=31  fraction_correct=0.4918032786885246
+=================================
+ques.num=69  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nThe most likely etiology for hydronephrosis in an ectopic kidney is: \n\nA. VUR. \nB. aberrant crossing vessels. \nC. UPJ obstruction. \nD. ureterovesical junction obstruction. \nE. redundant ureter. \n'
+key='C' response='C.' delta=0.32921314239501953
+qcount=62  ques.num=69  delta=0.32921314239501953 result=True  sum_c=31  sum_w=31  fraction_correct=0.5
+=================================
+ques.num=70  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 28-year-old woman is 30 weeks pregnant and develops left flank pain requiring \nparenteral analgesics. Renal ultrasound demonstrates left hydronephrosis and no \n\nureteral jet, but no stone is seen. The next step is: \n\n\nA. KUB. \nB. low dose CT scan. \nC. ureteral stent. \nD. ureteroscopy. \nE. PCNT. \n'
+key='B' response='C.' delta=0.3529386520385742
+qcount=63  ques.num=70  delta=0.3529386520385742 result=False  sum_c=31  sum_w=32  fraction_correct=0.49206349206349204
+=================================
+ques.num=71  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 38-year-old man undergoes a right nephroureterectomy for low-grade pTaurothelial carcinoma. At his three-month appointment, his follow-up evaluation \nshould include: \n\n\nA. genetic counseling. \nB. urine cytology. \nC. chest x-ray. \nD. CT scan of abdomen/pelvis. \nE. blue light cystoscopy. \n'
+key='A' response='B.' delta=0.4352552890777588
+qcount=64  ques.num=71  delta=0.4352552890777588 result=False  sum_c=31  sum_w=33  fraction_correct=0.484375
+=================================
+ques.num=72  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nA 36-year-old man has oliguria 36 hours following ureteral reimplantation of a \nsolitary kidney. On maintenance I.V. D5 1/2 normal saline, labs are: Na 131 mEq/L, K \n\n4.0 mEq/L, CO217 mEq/L, BUN 34 mg/dL, and creatinine 1.5 mg/dL. Following PCNT, \n\nurine output increases to 8 mL/kg/hour. He is at risk of developing: \n\n\nA. acidosis. \nB. hypermagnesemia. \nC. hyponatremia. \nD. hypokalemia. \nE. hypercalcemia. \n'
+key='D' response='C. hyponatremia.' delta=0.6983003616333008
+qcount=65  ques.num=72  delta=0.6983003616333008 result=False  sum_c=31  sum_w=34  fraction_correct=0.47692307692307695
+=================================
+ques.num=74  prompt='\n\nOnly return the answer A, B, C, D or E in response to the prompt below\n\nThe vas deferens travels posterior along the spermatic cord then courses: \n\nA. lateral to the epigastric vessels and anterior to the ureter. \nB. lateral to the epigastric vessels and posterior to the ureter. \nC. lateral to the epigastric vessels and lateral to the ureter. \nD. medial to the epigastric vessels and anterior to the ureter. \nE. medial to the epigastric vessels and posterior to the ureter. \n'
+key='A' response='B.' delta=5.162494659423828
+qcount=66  ques.num=74  delta=5.162494659423828 result=False  sum_c=31  sum_w=35  fraction_correct=0.4696969696969697
+=================================
